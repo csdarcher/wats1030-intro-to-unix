@@ -60,7 +60,7 @@ boot  etc  home      lib64  mnt    proc  run   srv   tmp  var`
   - It showed my previous command - pwd
 
 * Press the up arrow a few more times.* 
- - It showed me all of my previous commands
+  - It showed me all of my previous commands
 
 * Run the `history` command. *What do you see?*
   - 1  pwd
