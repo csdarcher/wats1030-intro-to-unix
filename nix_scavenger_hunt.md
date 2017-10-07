@@ -41,8 +41,8 @@ and then clone it to your development environment.
   - **h** When used with the -l option, use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte in order to reduce the number of digits to three or less using base 2 for sizes.
 
 * Commands can also take *arguments*, which are usually the names of files or locations that you want the command to work with. Try running `ls /` to see what files are in the *root* directory of the filesystem. *What files and directories do you see listed?*
-bin   dev  fastboot  lib    media  opt   root  sbin  sys  usr
-boot  etc  home      lib64  mnt    proc  run   srv   tmp  var
+`bin   dev  fastboot  lib    media  opt   root  sbin  sys  usr
+boot  etc  home      lib64  mnt    proc  run   srv   tmp  var`
 
 * A Unix filesystem has a few special shortcuts to refer to specific locations. `/` indicates the *root* of the filesystem, meaning the top-most directory in the filesystem hierarchy. Use the `cd` ("change directory") command to move to the root directory. (Hint: Use `man` to look up the `cd` command if you have any issues) *Then run `pwd` and paste the output here:
   - /
@@ -56,11 +56,11 @@ boot  etc  home      lib64  mnt    proc  run   srv   tmp  var
 * Use the `cd` command to move "up" one directory. *Where are you in the filesystem now?*
   - /home/cabox/workspace
 
-* Press the up arrow on your keyboard. 
+* Press the up arrow on your keyboard.* 
   - It showed my previous command - pwd
 
-* Press the up arrow a few more times. 
- - It showed me all of my previous commands.
+* Press the up arrow a few more times.* 
+ - It showed me all of my previous commands
 
 * Run the `history` command. *What do you see?*
   - 1  pwd
@@ -129,7 +129,7 @@ boot  etc  home      lib64  mnt    proc  run   srv   tmp  var
   - 64  cd ..
   - 65  pwd
   - 66  history
-  - 
+  
 ### Observing the System
 
 * Discover what account you are logged into using the `whoami` command. *What username are you currently using?*
